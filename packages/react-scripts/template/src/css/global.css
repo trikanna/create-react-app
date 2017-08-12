@@ -1,0 +1,79 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 13px;
+  line-height: 1.4;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-overflow-scrolling: touch;
+  background: #ffffff;
+  color: #282828;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+h1 {
+  font-size: 28pt;
+  line-height: 28pt;
+}
+
+h2 {
+  font-size: 22pt;
+  line-height: 22pt;
+}
+
+h3 {
+  font-size: 20pt;
+  line-height: 20pt;
+}
+
+h4 {
+  font-size: 17pt;
+  line-height: 17pt;
+}
+
+h5 {
+  font-size: 15pt;
+  line-height: 15pt;
+}
+
+h6 {
+  font-size: 12pt;
+  line-height: 12pt;
+}
+
+p {
+  font-size: 10pt;
+  line-height: 13pt;
+  margin-bottom: 13pt;
+}
+
+#root {
+  min-height: 100%;
+}
+
+pre,
+code {
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-size: 11px;
+}
